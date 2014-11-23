@@ -1,8 +1,8 @@
 =======
-openjdk
+OpenJDK
 =======
 
-Formula to install and configure openjdk.
+Formula to install and configure OpenJDK.
 
 My first formula, a lot of room for improvement. Suggestion are welcome.
 
