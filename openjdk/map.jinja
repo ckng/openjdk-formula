@@ -1,0 +1,8 @@
+{% set openjdk = salt['grains.filter_by']({
+  'Debian': {
+    'java_home': '/usr/java/latest',
+  },
+  'RedHat': {
+    'java_home': '/usr/java/latest',
+  },
+}, merge=salt['pillar.get']('openjdk:lookup')) %}
